@@ -1,10 +1,4 @@
-/*
 
-New Event
-
-http://www.templatemo.com/tm-486-new-event
-
-*/
 
 body {
 		background: #ffffff;
@@ -15,7 +9,7 @@ body {
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typorgraphy
 -----------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
@@ -57,22 +51,22 @@ a {
 
 
 /*---------------------------------------
-    General               
+    General
 -----------------------------------------*/
 .section-title {
   margin-bottom: 32px;
 }
 
-#overview,
+#about,
 #register {
   padding-top: 14rem;
   padding-bottom: 14rem;
 }
 
 #detail, #video,
-#speakers, 
+#speakers,
 #program,
-#sponsors, 
+#sponsors,
 #contact, footer {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -84,7 +78,7 @@ footer {
   text-align: center;
 }
 
-#overview h3,
+#about h3,
 #detail h3, #video h3,
 #register h3,
 #venue h3,
@@ -142,7 +136,7 @@ footer {
 
 
 /*---------------------------------------
-    Preloader section              
+    Preloader section
 -----------------------------------------*/
 .preloader {
   position: fixed;
@@ -190,7 +184,7 @@ footer {
 
 
 /*---------------------------------------
-    Navigation Links section              
+    Navigation Links section
 -----------------------------------------*/
 .custom-navbar {
     margin-bottom: 0;
@@ -247,7 +241,7 @@ footer {
     .custom-navbar {
         padding: 20px 0;
         border-bottom: 0;
-        background: 0 0; 
+        background: 0 0;
     }
     .custom-navbar.top-nav-collapse {
         background: #101010;
@@ -259,7 +253,7 @@ footer {
 
 
 /*---------------------------------------
-    Intro section              
+    Intro section
 -----------------------------------------*/
 #intro {
     background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
@@ -286,9 +280,9 @@ footer {
 
 
 /*---------------------------------------
-   Overview  section              
+   Overview  section
 -----------------------------------------*/
-#overview img {
+#about img {
   position: relative;
   padding-bottom: 32px;
 }
@@ -296,7 +290,7 @@ footer {
 
 
 /*---------------------------------------
-    Detail section              
+    Detail section
 -----------------------------------------*/
 #detail {
     background: #222;
@@ -311,7 +305,7 @@ footer {
 
 
 /*---------------------------------------
-    Video section              
+    Video section
 -----------------------------------------*/
 #video iframe {
   border: none;
@@ -320,7 +314,7 @@ footer {
 
 
 /*---------------------------------------
-   Speakers section              
+   Speakers section
 -----------------------------------------*/
 #speakers {
     background: #f9f9f9;
@@ -358,7 +352,7 @@ footer {
 
 
 /*---------------------------------------
-   Program section              
+   Program section
 -----------------------------------------*/
 #program h4 {
     color: #808080;
@@ -417,7 +411,7 @@ footer {
 
 
 /*---------------------------------------
-    Regsiter section              
+    Regsiter section
 -----------------------------------------*/
 #register {
     background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
@@ -425,6 +419,12 @@ footer {
     background-size: cover;
     background-position: center center;
     color: #ffffff;
+		text-align: center;
+}
+#register .register {
+
+	max-width: 800px;
+	left: 175px
 }
 
 #register .form-control {
@@ -434,12 +434,13 @@ footer {
   color: #ffffff;
   margin-bottom: 16px;
 }
-
+#register p { margin-bottom: 50px}
 #register input {
   height: 45px;
 }
 
-#register input[type="submit"] {
+#register a {
+	padding: 15px 50px;
   background: #f2545f;
   border-radius: 100px;
   border: none;
@@ -450,7 +451,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-#register input[type="submit"]:hover {
+#register a:hover {
   background: #ffffff;
   color: #222;
 }
@@ -458,7 +459,7 @@ footer {
 
 
 /*---------------------------------------
-   Faq section              
+   Faq section
 -----------------------------------------*/
 #faq {
   background: #f9f9f9;
@@ -523,7 +524,7 @@ footer {
 
 
 /*---------------------------------------
-   Venue section              
+   Venue section
 -----------------------------------------*/
 #venue {
     background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
@@ -531,17 +532,41 @@ footer {
     background-position: center center;
     padding-top: 7rem;
     padding-bottom: 7rem;
+		color: #ffffff;
+		text-align: center;
+}
+
+#venue .register {
+
+		max-width: 800px;
+		left: 175px
+}
+
+#venue a {
+	padding: 15px 50px;
+  background: #337ab7;
+  border-radius: 100px;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 12px;
+  transition: all 0.4s ease-in-out;
+}
+
+#venue a:hover {
+  background: #ffffff;
+  color: #222;
 }
 
 #venue p {
-  padding-top: 12px;
-  padding-bottom: 18px;
+
+	margin-bottom: 30px
 }
 
 
-
 /*---------------------------------------
-   Sponsors section              
+   Sponsors section
 -----------------------------------------*/
 #sponsors img {
   margin-top: 18px;
@@ -550,7 +575,7 @@ footer {
 
 
 /*---------------------------------------
-   Contact section              
+   Contact section
 -----------------------------------------*/
 #contact {
     background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
@@ -604,7 +629,7 @@ footer {
 
 
 /*---------------------------------------
-   Footer section              
+   Footer section
 -----------------------------------------*/
 footer {
   background-attachment: fixed;
@@ -634,9 +659,16 @@ footer {
     color: #ffffff;
 }
 
-
 /*---------------------------------------
-   Social icon             
+   google Form
+-----------------------------------------*/
+.g-form {
+	 margin-top: 50px;
+	 margin-left: 300px;
+	 max-height: 500px;
+}
+/*---------------------------------------
+   Social icon
 -----------------------------------------*/
 .social-icon {
     position: relative;
@@ -670,7 +702,7 @@ footer {
 
 
 /*---------------------------------------
-   Responsive styles            
+   Responsive styles
 -----------------------------------------*/
 @media (max-width: 980px) {
 
@@ -704,7 +736,7 @@ footer {
     line-height: 20px;
   }
 
-  #overview img,
+  #about img,
   #detail .col-md-4,
   #register form {
     padding-top: 32px;
@@ -735,4 +767,3 @@ footer {
   }
 
 }
-
