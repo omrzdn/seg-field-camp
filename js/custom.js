@@ -3,6 +3,17 @@
   -----------------------------------------------*/
 $(window).load(function(){
     $('.preloader').fadeOut(1000); // set duration in brackets
+
+
+    //Countdown js
+  	 $("#countdown").countdown({
+  			date: "20 august 2020 12:00:00",
+  			format: "on"
+  		},
+
+  		function() {
+  			// callback function
+  		});
 });
 
 
