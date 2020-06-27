@@ -7,7 +7,7 @@ $(window).load(function(){
 
     //Countdown js
   	 $("#countdown").countdown({
-  			date: "20 august 2020 12:00:00",
+  			date: "27 august 2020 12:00:00",
   			format: "on"
   		},
 
